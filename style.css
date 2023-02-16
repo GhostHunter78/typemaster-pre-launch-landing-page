@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.right-rec {
+  display: none;
+}
+
+.desktop-keyboard {
+  display: none;
+}
+
+.body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#main {
+  overflow-x: hidden;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 27px;
+  margin-left: 24px;
+}
+
+.first-box {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #e8eff2;
+  margin-right: 25px;
+  margin-top: 23px;
+}
+
+.pre-order {
+  margin: auto;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  width: 122px;
+  font-weight: 700;
+}
+
+.heading1 {
+  width: 327px;
+  height: 96px;
+  font-family: "Barlow";
+  font-size: 48px;
+  color: #162542;
+  font-weight: 900;
+  line-height: 48px;
+  margin-top: 68px;
+  margin-left: 24px;
+}
+
+.paragraph1 {
+  width: 327px;
+  height: 78px;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.order-and-release {
+  display: flex;
+  align-items: center;
+}
+
+.first-box2 {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f16718;
+  margin-left: 24px;
+  margin-top: 32px;
+}
+
+.pre-order2 {
+  margin: auto;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  width: 122px;
+  font-weight: 700;
+  color: white;
+}
+
+.release {
+  width: 127px;
+  height: 26px;
+  font-weight: 700;
+  font-family: "Barlow";
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.keyboard {
+  width: 371px;
+  height: 331px;
+  border-radius: 25px;
+  margin-top: 65px;
+  margin-left: 24px;
+}
+
+.phone-and-keyboard {
+  width: 130px;
+  height: 193px;
+  margin-left: -20px;
+  border-radius: 25px;
+}
+
+.glass-and-keyboard {
+  width: 340px;
+  height: 193px;
+  border-radius: 25px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.two-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.first-title {
+  width: 255px;
+  height: 108px;
+  font-family: "Barlow";
+  font-weight: 900;
+  font-size: 32px;
+  color: #162542;
+  text-align: center;
+  line-height: 36px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.first-description {
+  width: 327px;
+  height: 104px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  color: #7b8bad;
+  text-align: center;
+  line-height: 26px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.icon-tv {
+  border-radius: 16px;
+  background-color: #f16718;
+  margin-top: 111px;
+  margin-left: 155px;
+}
+
+.card-description {
+  width: 327px;
+  height: 104px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  color: #7b8bad;
+  text-align: center;
+  line-height: 26px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.title2 {
+  font-family: "Barlow";
+  width: 327px;
+  height: 56px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  color: #162542;
+  text-align: center;
+  margin-top: 48px;
+  margin-left: 24px;
+}
+
+.icon {
+  border-radius: 16px;
+  background-color: #f16718;
+  margin-top: 64px;
+  margin-left: 155px;
+}
+
+.bottom-text {
+  width: 272px;
+  height: 26px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  color: #7b8bad;
+  margin-top: 96px;
+  margin-left: 51px;
+  margin-bottom: 50px;
+}
+
+.span1 {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-top: 49px;
+    margin-left: 39px;
+  }
+
+  .first-box {
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 175px;
+    height: 58px;
+  }
+
+  .heading1 {
+    width: 339px;
+    margin-left: 39px;
+    margin-top: 131px;
+  }
+
+  .keyboard {
+    position: absolute;
+    width: 478px;
+    height: 435px;
+    top: 8%;
+    left: 55%;
+  }
+
+  .paragraph1 {
+    margin-left: 39px;
+    margin-top: 34px;
+  }
+
+  .first-box2 {
+    width: 175px;
+    height: 58px;
+    margin-left: 39px;
+  }
+
+  .release {
+    margin-left: 37px;
+  }
+
+  .two-images {
+    margin-top: 90px;
+  }
+
+  .phone-and-keyboard {
+    width: 214px;
+    height: 320px;
+    margin-left: 39px;
+  }
+
+  .glass-and-keyboard {
+    width: 445px;
+    height: 320px;
+    margin-right: 39px;
+  }
+
+  .first-title {
+    margin-left: 39px;
+    text-align: left;
+  }
+
+  .first-description {
+    width: 398px;
+    height: 78px;
+    margin-left: 36px;
+    margin-top: 60px;
+    text-align: left;
+  }
+
+  .cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .h-and-p {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-tv {
+    margin-left: 39px;
+  }
+
+  .title2 {
+    margin-left: 39px;
+    text-align: left;
+  }
+
+  .icon {
+    margin-left: 39px;
+  }
+
+  .card-description {
+    text-align: left;
+    margin-left: 39px;
+  }
+
+  .card2 {
+    margin-top: 47px;
+  }
+
+  .bottom-text {
+    margin: 142px 249px 43px 247px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    margin-left: 165px;
+    margin-top: 64px;
+  }
+
+  .first-box {
+    margin-top: 64px;
+    margin-right: 165px;
+  }
+
+  .heading1 {
+    width: 445px;
+    height: 112px;
+    margin-left: 165px;
+    margin-top: 152px;
+  }
+
+  .keyboard {
+    display: none;
+  }
+
+  .desktop-keyboard {
+    display: inline-block;
+    position: absolute;
+    width: 540px;
+    height: 480px;
+    border-radius: 25px;
+    top: 18%;
+    left: 45%;
+  }
+
+  .right-rec {
+    display: inline-block;
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    top: 18%;
+    left: 46%;
+    width: 100%;
+  }
+}
