@@ -496,6 +496,7 @@ html {
 @media screen and (min-width: 1500px) {
   .desktop-keyboard {
     margin-top: 100px;
+    margin-left: 35px;
   }
 
   .right-rec {
